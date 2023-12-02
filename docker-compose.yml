@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  evilbin:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: bash -c "sleep 9999999s"
+    working_dir: /app
+    volumes:
+      - ./:/app
