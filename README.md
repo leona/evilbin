@@ -30,4 +30,4 @@ echo -n 'END_OF_PAYLOAD' >> example.bin
 echo -n 'toor' >> example.bin
 ```
 
-This simply replaces any instances of root with toor in stdout.
+This simply runs `top` but replaces any instances of root with toor in stdout.
